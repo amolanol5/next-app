@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
+        - npm install
     Vars:
       commands:
         - echo PRUEBA="cocoloco"
